@@ -29,7 +29,7 @@ import requests
 from typing import List
 from typing import Tuple
 
-endings = ["torrent", "sha1", "sha256", "sig"]
+endings = ["torrent"]
 burl = "https://osdn.net"
 outdir = os.getcwd()
 slow = 1
